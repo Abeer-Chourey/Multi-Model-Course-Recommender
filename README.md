@@ -52,9 +52,6 @@ The GMF inherently learns to severely penalize courses where prerequisites are m
 
 ---
 
-## 📁 Repository Structure
-
-The end-to-end pipeline is structured into 7 modular, sequential Python scripts mimicking the paper's methodology.
 
 ## 🚀 Setup & Execution
 
