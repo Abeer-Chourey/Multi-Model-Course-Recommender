@@ -1,0 +1,76 @@
+Student ID,Rank,Course,Success Prob,Fit Score,Prereq Met,Grad Priority,Final Score
+S347,1,Learn HTML5 Programming From Scratch,0.522,0.771,✓,1.000,0.8225
+S347,2,Master the MEAN Stack - Learn By Example,0.544,0.721,✓,1.000,0.8116
+S347,3,"Angular 2 Complete E-Commerce App Course - Java,Sp",0.539,0.708,✓,1.000,0.8064
+S347,4,Learn how to create a WordPress theme using Pinegr,0.532,0.697,✓,1.000,0.8041
+S347,5,AngularJS Custom Directives with Dan Wahlin,0.542,0.712,✓,1.000,0.8036
+S347,6,"Building a Portfolio in 90 minutes ( HTML, CSS, Js",0.541,0.690,✓,1.000,0.8000
+S347,7,Financial Modeling for Business Analysts and Consu,0.543,0.685,✓,1.000,0.7998
+S347,8,Learn to Build Websites using Twitter Bootstrap,0.536,0.687,✓,1.000,0.7989
+S347,9,How to Design an Awesome Letterhead in Adobe Illus,0.541,0.683,✓,1.000,0.7989
+S347,10,Domina el Diseño Gráfico para Web con Photoshop CC,0.541,0.659,✓,1.000,0.7972
+S347,11,Play Piano 8 - Play Over the Rainbow by Ear & Free,0.543,0.668,✓,1.000,0.7933
+S347,12,Essential Skills for Designers - Masking,0.541,0.648,✓,1.000,0.7906
+S347,13,Ultimate Photoshop Training: From Beginner to Pro,0.481,0.686,✓,0.999,0.7869
+S347,14,Horn Pro Series - You're going to love playing Fre,0.547,0.638,✓,1.000,0.7848
+S347,15,Display and analyze GIS data on the web with Leafl,0.548,0.636,✓,1.000,0.7835
+S963,1,Web Programming with Python,0.555,0.701,✓,0.007,0.5735
+S963,2,The Complete Bootstrap Masterclass Course - Build ,0.546,0.704,✓,0.007,0.5715
+S963,3,Getting Started with Magento,0.560,0.646,✓,0.066,0.5678
+S963,4,Sintetizadores e Síntese Subtrativa,0.550,0.629,✓,0.071,0.5658
+S963,5,Learn Laravel PHP Framework Building Multi User SE,0.556,0.668,✓,0.014,0.5654
+S963,6,"Build a Responsive Website with HTML5, CSS3 and Bo",0.558,0.692,✓,0.007,0.5650
+S963,7,Advanced HTML5 Tutorial for Web Developers,0.558,0.681,✓,0.007,0.5642
+S963,8,"Master Electron: Desktop Apps using HTML, JavaScri",0.557,0.655,✓,0.008,0.5637
+S963,9,Create Complete Web Applications easily with APEX ,0.556,0.666,✓,0.014,0.5633
+S963,10,CFA® Level 1 2014 – Financial Reporting and Analys,0.557,0.635,✓,0.013,0.5602
+S963,11,Learn Ruby on Rails for Absolute Beginners,0.555,0.642,✓,0.014,0.5585
+S963,12,Book Design With MS Word And Canva ,0.558,0.639,✓,0.014,0.5584
+S963,13,Financial Risk Manager (FRM) Certification: Level ,0.556,0.647,✓,0.012,0.5574
+S963,14,Ultimate guide to Social Media Web development int,0.554,0.650,✓,0.012,0.5557
+S963,15,"Ruby on Rails 5 - BDD, RSpec and Capybara",0.553,0.680,✓,0.010,0.5555
+S731,1,QuickBooks Online: Complete Guide & Certification ,0.594,0.628,✓,0.080,0.5920
+S731,2,Projects in MongoDB - Learn MongoDB Building Proje,0.594,0.634,✓,0.072,0.5916
+S731,3,Python Programming: Create an Digital Marketplace ,0.592,0.654,✓,0.060,0.5903
+S731,4,Hedge and Mutual Fund Careers: The Complete Guide,0.594,0.637,✓,0.095,0.5897
+S731,5,MQL4 Programming for Traders: Build Robust Trading,0.595,0.607,✓,0.072,0.5896
+S731,6,FOREX : Learn Technical Analysis,0.595,0.606,✓,0.069,0.5893
+S731,7,PHP For Beginners : Learn PHP From Scratch!,0.594,0.601,✓,0.068,0.5892
+S731,8,Play Ukulele Now,0.591,0.620,✓,0.071,0.5869
+S731,9,Angularjs-WebApi2-EFCodeFirst Web App On 3-Tier Ar,0.593,0.595,✓,0.086,0.5867
+S731,10,Projects in PHP and MySQL,0.587,0.651,✓,0.066,0.5863
+S731,11,Learn Ruby on Rails: Stripe Payment Processing,0.594,0.598,✓,0.068,0.5863
+S731,12,Learn Ruby on Rails for Absolute Beginners,0.596,0.586,✓,0.072,0.5855
+S731,13,Advanced Javascript,0.592,0.611,✓,0.064,0.5855
+S731,14,Cracking the Violin Code!,0.593,0.591,✓,0.065,0.5844
+S731,15,How to Create a Social Network For a Niche-Related,0.593,0.589,✓,0.065,0.5844
+S018,1,Guitar Super System Level 2,0.721,0.616,✓,1.000,0.8673
+S018,2,Trading Robot Forex Programs in Your Sleep in Live,0.715,0.596,✓,1.000,0.8607
+S018,3,Understanding TypeScript,0.676,0.624,✓,0.998,0.8518
+S018,4,B Com Accountancy I (Paper ECO 02 IGNOU),0.681,0.602,✓,0.999,0.8513
+S018,5,Short Straddles - Exploit Earnings Option Volatili,0.723,0.517,✓,1.000,0.8463
+S018,6,Create Complete Web Applications easily with APEX ,0.679,0.568,✓,0.999,0.8388
+S018,7,Acoustic Fingerstyle Guitar Course: Beginner to Ad,0.677,0.570,✓,0.998,0.8380
+S018,8,Learning Axure RP,0.681,0.552,✓,0.999,0.8378
+S018,9,Administering Microsoft SQL Server 2012 Databases ,0.678,0.556,✓,0.999,0.8371
+S018,10,How to Build Chat Bots: From Beginner to Intermedi,0.677,0.548,✓,0.998,0.8363
+S018,11,Mastering Thymeleaf with Spring,0.677,0.556,✓,0.999,0.8360
+S018,12,SAP - Learn SAPUI5 Professional Development,0.674,0.554,✓,0.998,0.8356
+S018,13,Accounting: Get Hired Without Work Experience,0.681,0.532,✓,0.998,0.8346
+S018,14,Option Trading for Rookies: Basic Option Strategie,0.677,0.533,✓,0.998,0.8324
+S018,15,Python for Trading & Investing,0.671,0.524,✓,0.998,0.8315
+S1189,1,Logo Design in Adobe Illustrator - for Beginners &,0.587,0.764,✓,0.994,0.8401
+S1189,2,Learn HTML5 Programming From Scratch,0.555,0.795,✓,0.990,0.8275
+S1189,3,Stock Trading Ninja: Complete System For Trading S,0.590,0.733,✓,0.990,0.8261
+S1189,4,Projects in CSS,0.586,0.731,✓,0.993,0.8257
+S1189,5,Three Steps Trading - Live Trading - Real Account,0.590,0.697,✓,0.990,0.8237
+S1189,6,Zend Framework 2: Learn the PHP framework ZF2 from,0.588,0.704,✓,0.991,0.8228
+S1189,7,Play Piano 4: Improvise on popular song Yesterday ,0.586,0.695,✓,0.995,0.8203
+S1189,8,The Complete HMTL5 Course - Go From Beginner To Ad,0.590,0.703,✓,0.989,0.8202
+S1189,9,Master Class Piano Techniques: Tips To EZ Coordina,0.587,0.695,✓,0.995,0.8193
+S1189,10,So you think you know JavaScript?,0.584,0.697,✓,0.991,0.8170
+S1189,11,Clipping Masks & Shaped images in Adobe Photoshop ,0.588,0.672,✓,0.990,0.8164
+S1189,12,Play Piano 7: Improvise on For All We Know in F Ke,0.589,0.687,✓,0.993,0.8164
+S1189,13,How to Create Your Personal Budget,0.589,0.672,✓,0.993,0.8164
+S1189,14,Trading News Using Binary Options,0.594,0.675,✓,0.991,0.8142
+S1189,15,Life Coach Business Basics: Finance and Operations,0.591,0.675,✓,0.992,0.8139
