@@ -3,8 +3,6 @@
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-LightGBM%20%7C%20GradientBoosting-orange)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Status](https://img.shields.io/badge/Status-Completed-success)
 
 ## 📖 Theoretical Overview
 
