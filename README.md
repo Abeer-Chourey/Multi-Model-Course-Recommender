@@ -3,6 +3,8 @@
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-LightGBM%20%7C%20GradientBoosting-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Completed-success)
 
 ## 📖 Theoretical Overview
 
@@ -50,6 +52,26 @@ The GMF inherently learns to severely penalize courses where prerequisites are m
 
 ---
 
+## 📁 Repository Structure
+
+The end-to-end pipeline is structured into 7 modular, sequential Python scripts mimicking the paper's methodology.
+
+```text
+📂 RS-Research-Paper-Multi-Model/
+ ├── 📄 requirements.txt                 # Project dependencies
+ ├── ⚙️ step1_data_loading.py            # Automated Kagglehub downloads & raw data cleaning
+ ├── ⚙️ step2_feature_engineering.py     # Interaction matrix creation & Z-score normalization
+ ├── ⚙️ step3_data_splitting.py          # Zero-leakage 70/10/20 train/val/test splits
+ ├── ⚙️ step4_model_training.py          # Training all 5 LMF trees + 1 GMF meta-model
+ ├── ⚙️ step5_model_evaluation.py        # Validation evaluations (RMSE, MAE, R², Acc, F1)
+ ├── ⚙️ step6_final_evaluation.py        # Test set unsealing & Ranking Metrics (NDCG@k)
+ ├── ⚙️ step7_hybrid_recommender.py      # Final constraint-aware personalization outputs
+ ├── 📂 data/                            # Contains preprocessed .pkl logic & final recommendations.csv
+ ├── 📂 models/                          # Stored .joblib model weights 
+ └── 📂 plots/                           # Automatically generated matplotlib visualizations
+```
+
+---
 
 ## 🚀 Setup & Execution
 
@@ -100,7 +122,22 @@ By moving from synthetic generation logic to real-world human data, absolute mat
 ![Validation Metrics](plots/val_metrics_summary.png)
 
 ### Visual 3: Final Output State (Constraint-Aware Hybrid Recommendations)
-*In step 7, the algorithm loops over sample students to construct individualized, ranked schedules utilizing all aggregated GMF logic. The below bar chart represents the final output state demonstrating mathematically constrained recommendations per student.*
+
+In the final step of the pipeline (Step 7), the **Hybrid Recommender** generates personalized, ranked course lists for each student by combining all five local model predictions through the trained Global Meta-Function (GMF).
+
+**How to read this chart:**
+- **Y-axis (Rows):** Each row (#1 through #15) represents a recommended course, ranked from highest to lowest score. Rank #1 is the system's strongest recommendation for that student.
+- **X-axis (Bars):** The horizontal bar length represents the **Final Recommendation Score** — the GMF output after prerequisite filtering and graduation priority boosting. A higher score means the system is more confident that this course is the optimal choice for the student.
+- **Color Gradient (Green → Yellow → Orange):** The gradient visually encodes ranking quality. Green bars (top ranks) indicate the highest-confidence recommendations, transitioning to orange for lower-ranked alternatives.
+- **Score Labels:** The numeric value printed at the end of each bar is the exact constraint-aware score produced by the GMF meta-model.
+
+**What makes these recommendations "constraint-aware":**
+1. Every recommended course has passed the **Prerequisite Filter** (PFM probability ≥ 0.5) — the system will never recommend a course the student is unqualified for.
+2. Courses critical for **Graduation Priority** (high GPM score) receive a score boost, pushing them higher in the ranking.
+3. The underlying **Success Probability** (SPM) and **Course Fit** (CFSM) ensure that the student is likely to both succeed in and benefit from each recommended course.
+
+Notice how different students receive vastly different score ranges (e.g., Student S018 scores ~0.83–0.87 while Student S963 scores ~0.55–0.57), reflecting the system's ability to personalize recommendations based on each student's unique academic profile.
+
 ![Personalized Hybrid Recommendations](plots/hybrid_recommendations.png)
 
 ---
