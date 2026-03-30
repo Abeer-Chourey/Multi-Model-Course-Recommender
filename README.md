@@ -3,6 +3,12 @@
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-LightGBM%20%7C%20GradientBoosting-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+
+This project builds an intelligent **Course Recommendation System** that suggests the most suitable courses to university students based on their academic profile, learning history, and degree requirements. Unlike generic recommendation engines (such as Netflix or Amazon) that rely on simple user-item similarity, academic course selection demands awareness of strict academic rules — a student must meet **prerequisite requirements**, courses must align with their **graduation timeline**, the workload must match their **current academic capacity**, and the recommended courses should maximize their **probability of success**.
+
+To solve this, we implement a **multi-model machine learning framework** where five specialized models each handle one academic constraint independently (success prediction, course fit, prerequisite checking, graduation prioritization, and workload estimation), and a sixth **global meta-model** intelligently combines all five outputs into a single, unified recommendation score. The system then ranks courses by this score and presents the student with a personalized, constraint-aware Top-N course list — ensuring every recommendation is not just relevant, but academically safe and strategically optimal for their degree progress.
 
 ---
 
@@ -175,7 +181,7 @@ python src/step7_hybrid_recommender.py
 
 | Step | Script | Input | Output | Time |
 |------|--------|-------|--------|------|
-| 1 | `step1_data_loading.py` | Read CSV files | `data/courses.pkl`, `data/students.pkl` | ~30s |
+| 1 | `step1_data_loading.py` | Kaggle API | `data/courses.pkl`, `data/students.pkl` | ~30s |
 | 2 | `step2_feature_engineering.py` | Cleaned .pkl files | `data/interaction_features.pkl` (~100K records) | ~15s |
 | 3 | `step3_data_splitting.py` | Interaction dataset | `data/train.pkl`, `data/val.pkl`, `data/test.pkl` | ~5s |
 | 4 | `step4_model_training.py` | Train + Val splits | 6 models in `models/` directory | ~60s |
