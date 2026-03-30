@@ -3,8 +3,6 @@
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-LightGBM%20%7C%20GradientBoosting-orange)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Status](https://img.shields.io/badge/Status-Completed-success)
 
 This project builds an intelligent **Course Recommendation System** that suggests the most suitable courses to university students based on their academic profile, learning history, and degree requirements. Unlike generic recommendation engines (such as Netflix or Amazon) that rely on simple user-item similarity, academic course selection demands awareness of strict academic rules — a student must meet **prerequisite requirements**, courses must align with their **graduation timeline**, the workload must match their **current academic capacity**, and the recommended courses should maximize their **probability of success**.
 
