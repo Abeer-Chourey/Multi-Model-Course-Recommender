@@ -3,8 +3,6 @@
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-LightGBM%20%7C%20GradientBoosting-orange)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Status](https://img.shields.io/badge/Status-Completed-success)
 
 ## 📖 Theoretical Overview
 
@@ -58,17 +56,17 @@ The end-to-end pipeline is structured into 7 modular, sequential Python scripts 
 
 ```text
 📂 RS-Research-Paper-Multi-Model/
- ├── 📄 requirements.txt                 # Project dependencies
- ├── ⚙️ step1_data_loading.py            # Automated Kagglehub downloads & raw data cleaning
- ├── ⚙️ step2_feature_engineering.py     # Interaction matrix creation & Z-score normalization
- ├── ⚙️ step3_data_splitting.py          # Zero-leakage 70/10/20 train/val/test splits
- ├── ⚙️ step4_model_training.py          # Training all 5 LMF trees + 1 GMF meta-model
- ├── ⚙️ step5_model_evaluation.py        # Validation evaluations (RMSE, MAE, R², Acc, F1)
- ├── ⚙️ step6_final_evaluation.py        # Test set unsealing & Ranking Metrics (NDCG@k)
- ├── ⚙️ step7_hybrid_recommender.py      # Final constraint-aware personalization outputs
- ├── 📂 data/                            # Contains preprocessed .pkl logic & final recommendations.csv
- ├── 📂 models/                          # Stored .joblib model weights 
- └── 📂 plots/                           # Automatically generated matplotlib visualizations
+ ├── requirements.txt                 # Project dependencies
+ ├── step1_data_loading.py            # Automated Kagglehub downloads & raw data cleaning
+ ├── step2_feature_engineering.py     # Interaction matrix creation & Z-score normalization
+ ├── step3_data_splitting.py          # Zero-leakage 70/10/20 train/val/test splits
+ ├── step4_model_training.py          # Training all 5 LMF trees + 1 GMF meta-model
+ ├── step5_model_evaluation.py        # Validation evaluations (RMSE, MAE, R², Acc, F1)
+ ├── step6_final_evaluation.py        # Test set unsealing & Ranking Metrics (NDCG@k)
+ ├── step7_hybrid_recommender.py      # Final constraint-aware personalization outputs
+ ├── data/                            # Contains preprocessed .pkl logic & final recommendations.csv
+ ├── models/                          # Stored .joblib model weights 
+ └── plots/                           # Automatically generated matplotlib visualizations
 ```
 
 ---
