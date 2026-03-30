@@ -177,7 +177,7 @@ python src/step7_hybrid_recommender.py
 
 | Step | Script | Input | Output | Time |
 |------|--------|-------|--------|------|
-| 1 | `step1_data_loading.py` | Kaggle API | `data/courses.pkl`, `data/students.pkl` | ~30s |
+| 1 | `step1_data_loading.py` | Read CSV files | `data/courses.pkl`, `data/students.pkl` | ~30s |
 | 2 | `step2_feature_engineering.py` | Cleaned .pkl files | `data/interaction_features.pkl` (~100K records) | ~15s |
 | 3 | `step3_data_splitting.py` | Interaction dataset | `data/train.pkl`, `data/val.pkl`, `data/test.pkl` | ~5s |
 | 4 | `step4_model_training.py` | Train + Val splits | 6 models in `models/` directory | ~60s |
